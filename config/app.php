@@ -176,7 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //laravelcollective
-        \Collective\Html\HtmlServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -228,6 +228,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        //laravelcollective/html
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\FormFacade::class,
 
     ],
 
